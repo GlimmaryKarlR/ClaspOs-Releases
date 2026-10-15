@@ -24,11 +24,11 @@ Customers can verify the authenticity and integrity of downloaded ClaspOS binari
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspOs-0.2.8-windows.exe` | 86.95 MB | `bf7392a15fced208c3782fcd0c7c24687ee3f54d35f77830f170b10f697af386` |
-| `ClaspOs-0.2.8-mac-applesilicon.dmg` | 99.74 MB | `927266e7c0773d3fbe0020ec1b4b181a99005e1acd8dff0e4a008652010edca0` |
-| `ClaspOs-0.2.8-mac-intel.dmg` | 104.01 MB | `35d35089284c2622cf5cd0741e5fdd6c7a4d6a755f476b73271593ec5cb8ce15` |
-| `ClaspOs-0.2.8-linux.AppImage` | 110.82 MB | `6ae639c0b87c63b2043d792e99abd6939a7bb6c863274d2a2069dec95a6f9f92` |
-| `ClaspOs-0.2.8-mac-universal.dmg` | 176.82 MB | `4531fb606e84b65db52642246bd960ace25f3a84ee5fa94af8b3d0584c328561` |
+| `ClaspOs-0.2.8-windows.exe` | 86.96 MB | `0e4dd036e5a9a685c583ae2317325a1250bc8ca20fddfc03077272f1185b91d5` |
+| `ClaspOs-0.2.8-mac-applesilicon.dmg` | 99.75 MB | `d4825e932c595560f64ee47e1c718b02348494cbc1fd3796ae76ef69215cd148` |
+| `ClaspOs-0.2.8-mac-intel.dmg` | 104.00 MB | `d9fee978b0d9f576361463aeb9a9002fc1398d199c43549d8f3898f8acf3cfd0` |
+| `ClaspOs-0.2.8-linux.AppImage` | 110.85 MB | `b3ad110cff8be21ad1543f638406cdd0859f88f4231b912dc8d328cb0cf5c4d6` |
+| `ClaspOs-0.2.8-mac-universal.dmg` | 176.83 MB | `bb8292073211897da19db38aafe5ddc2da3454861ab62f923e8d6df79f4f7e9f` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
