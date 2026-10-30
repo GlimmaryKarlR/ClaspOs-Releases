@@ -6,29 +6,29 @@ Public distribution repository for **ClaspOS** standalone workstation binaries a
 
 ---
 
-## Latest Release: v0.3.7
+## Latest Release: v0.3.8
 
 ### Direct Download Links (GitHub Releases):
 
-* **Windows 10 / 11 (x64)**: [`ClaspOs-0.3.7-windows.exe`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.7/ClaspOs-0.3.7-windows.exe)
-* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: [`ClaspOs-0.3.7-mac-applesilicon.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.7/ClaspOs-0.3.7-mac-applesilicon.dmg)
-* **macOS (Intel Core x86_64)**: [`ClaspOs-0.3.7-mac-intel.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.7/ClaspOs-0.3.7-mac-intel.dmg)
-* **macOS (Universal - Both M-Series & Intel)**: [`ClaspOs-0.3.7-mac-universal.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.7/ClaspOs-0.3.7-mac-universal.dmg)
-* **Linux (Ubuntu, Debian, Fedora, Arch)**: [`ClaspOs-0.3.7-linux.AppImage`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.7/ClaspOs-0.3.7-linux.AppImage)
+* **Windows 10 / 11 (x64)**: [`ClaspOs-0.3.8-windows.exe`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.8/ClaspOs-0.3.8-windows.exe)
+* **macOS (Apple Silicon M1 / M2 / M3 / M4)**: [`ClaspOs-0.3.8-mac-applesilicon.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.8/ClaspOs-0.3.8-mac-applesilicon.dmg)
+* **macOS (Intel Core x86_64)**: [`ClaspOs-0.3.8-mac-intel.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.8/ClaspOs-0.3.8-mac-intel.dmg)
+* **macOS (Universal - Both M-Series & Intel)**: [`ClaspOs-0.3.8-mac-universal.dmg`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.8/ClaspOs-0.3.8-mac-universal.dmg)
+* **Linux (Ubuntu, Debian, Fedora, Arch)**: [`ClaspOs-0.3.8-linux.AppImage`](https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases/download/v0.3.8/ClaspOs-0.3.8-linux.AppImage)
 
 ---
 
-### Verified SHA-256 Checksums (v0.3.7)
+### Verified SHA-256 Checksums (v0.3.8)
 
 Customers can verify the authenticity and integrity of downloaded ClaspOS binaries before running them:
 
 | Platform / Binary | Size | SHA-256 Checksum |
 | :--- | :--- | :--- |
-| `ClaspOs-0.3.7-windows.exe` | 87.78 MB | `540ee6be815aecfabf6a04a4ea0506c3570f061a72d8bd85af1a59fef799d820` |
-| `ClaspOs-0.3.7-mac-applesilicon.dmg` | 100.77 MB | `2ef93bbd13adb721cc2ec3c8a1a2f8106a7dd1150d34432a7b1b5db7bff4ca23` |
-| `ClaspOs-0.3.7-mac-intel.dmg` | 105.01 MB | `9b1129a913aeecb8ed6a452a623ccb4224def98c8bed28edd1d4d0667621db21` |
-| `ClaspOs-0.3.7-linux.AppImage` | 111.91 MB | `f8c44abae1383ef21b16f9d27628728ab81508fd5baf6a51834ad9c80a331154` |
-| `ClaspOs-0.3.7-mac-universal.dmg` | 177.86 MB | `634880f5556dad6605972abfff00460b53a2f83e4b4250c2eb7be3e109acced8` |
+| `ClaspOs-0.3.8-windows.exe` | 87.78 MB | `fb1ce524cc7aac4d6bc1e5520d6ef73c769e42f37ecdc723808ac6f8b1331e5b` |
+| `ClaspOs-0.3.8-mac-applesilicon.dmg` | 100.77 MB | `fa217c33fca4bdb2e35bb2ab444af70296b22238748c4c77e019ad55361fe232` |
+| `ClaspOs-0.3.8-mac-intel.dmg` | 105.01 MB | `2f30b365ca135f0a15053e82948eb080ec269e355d12435896e7307c3e4b969a` |
+| `ClaspOs-0.3.8-linux.AppImage` | 111.91 MB | `dbbbf8e128e05e4d3f86ca1b2a490f18a73834a510535bc686b84252addeba3b` |
+| `ClaspOs-0.3.8-mac-universal.dmg` | 177.89 MB | `83b08600129e0c3f22fa0344affe27e90ced4e1e6ad8ca63c25d188d75b8de35` |
 
 #### How to Verify Locally:
 * **macOS / Linux**: `shasum -a 256 <filename>` (or `sha256sum -c SHA256SUMS.txt`)
@@ -45,7 +45,7 @@ To verify your downloaded binary matches the official build byte-for-byte before
 ### macOS / Linux
 ```bash
 # Test specific binary:
-shasum -a 256 ClaspOs-0.3.7-mac-applesilicon.dmg
+shasum -a 256 ClaspOs-0.3.8-mac-applesilicon.dmg
 
 # Or verify entire SHA256SUMS file:
 sha256sum -c SHA256SUMS.txt
@@ -53,10 +53,10 @@ sha256sum -c SHA256SUMS.txt
 
 ### Windows (PowerShell)
 ```powershell
-Get-FileHash .\ClaspOs-0.3.7-windows.exe -Algorithm SHA256
+Get-FileHash .\ClaspOs-0.3.8-windows.exe -Algorithm SHA256
 ```
 
 ### Windows (Command Prompt)
 ```cmd
-certutil -hashfile ClaspOs-0.3.7-windows.exe SHA256
+certutil -hashfile ClaspOs-0.3.8-windows.exe SHA256
 ```
