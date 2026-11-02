@@ -1,4 +1,4 @@
-# ClaspOS Official Standalone Releases
+[# ClaspOS Official Standalone Releases
 
 Public distribution repository for **ClaspOS** standalone workstation binaries and verified cryptographic checksums.
 
@@ -60,3 +60,4 @@ Get-FileHash .\ClaspOs-0.4.0-windows.exe -Algorithm SHA256
 ```cmd
 certutil -hashfile ClaspOs-0.4.0-windows.exe SHA256
 ```
+](https://lnkd.in/p/gb3j-wvq)
