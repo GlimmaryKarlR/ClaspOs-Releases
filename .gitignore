@@ -1,0 +1,8 @@
+# Ignore binary installer artifacts (>100MB) from git history
+# Official binaries are attached via GitHub Releases (https://github.com/GlimmaryKarlR/ClaspOs-Releases/releases)
+*.exe
+*.dmg
+*.AppImage
+*.zip
+*.deb
+*.blockmap
